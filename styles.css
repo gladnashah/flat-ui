@@ -1,0 +1,178 @@
+html {
+    font-size: 60%;
+}
+
+p.foo {
+    font-size: 1rem;
+}
+
+p.bar {
+    font-size: 2rem;
+}
+
+p.gup {
+    font-size: 3rem;
+}
+
+p {
+    float: right;
+    width: 50%;
+}
+
+div.images {
+    width: 30%;
+}
+
+img {
+	padding: 1.26%;
+	border: 1px solid #ccc;
+	margin: 1.26%;
+    width: 47%;
+    height: auto;
+    float: left;
+}
+
+.video-wrap {
+    position: relative;
+    ;
+    padding-bottom: 55%;
+    padding-top: 30%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-outer-wrap {
+    width: 50%;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:360px) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1280px) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (orientation: landscape) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 60%;
+    }
+    p.foo {
+        font-size: 1rem;
+    }
+    p.bar {
+        font-size: 2rem;
+    }
+    p.gup {
+        font-size: 3rem;
+    }
+}

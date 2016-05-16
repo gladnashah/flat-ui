@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, 
+		initial-scale=1">
+    <link rel="stylesheet" media="screen" href="fstyle.css">
+    <link href=
+	'http://fonts.googleapis.com/css?family=Lato&subset=latin,latinext'
+	rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/fontawesome/
+	4.4.0/css/font-awesome.min.css">
+	<script src="clock.js"></script>
+</head>
+
+<body onload="getTime()" class="color-4">
+    <section>
+        <div class="time color-0" d="time">FOO</div>
+        <div>
+            <div class="news color-1">
+                <ul>
+                    <li class="ellipsis">
+                        <h3 class="dark">
+                        	<i class="fa fa-newspaper=o"></i>
+                        	&nbsp;
+                        	Title 1</h3>
+                        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</P>
+                    </li>
+                    <li class="ellipsis">
+                        <h3 class="dark">
+                        	 <i class="fa fa-newspaper=o"</i>
+                        	&nbsp;Title 2</h3>
+                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li class="ellipsis">
+                        <h3 class="dark">
+                        	<i class="fa fa-newspaper=o"</i>
+                        	&nbsp;Title 3</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </li>
+                    <li class="ellipsis">
+                        <h3 class="dark">
+                        	<i class="fa fa-newspaper=o"</i>
+                        	&nbsp;Title 4</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="tasks color-2">
+                <ul>
+                    <li class="ellipsis">
+                        <h4 class="dark">
+                        	<i class="fa fa-calendar-check-o"></i>
+							&nbsp;8:00am
+                        </h4>
+                        <p>Wake up, fall out of bed</p>
+                    </li>
+                    <li class="ellipsis">
+                        <h4 class="dark">
+                        	<i class="fa fa-calendar-check-o"></i>
+							&nbsp;9.00am
+                        </h4>
+                        <p>Comb my hair</p>
+                    </li>
+                    <li class="ellipsis">
+                        <h4 class="dark">
+                        	<i class="fa fa-calendar-check-o"></i>
+							&nbsp;10.00am
+                        </h4>
+                        <p>Find your way downstairs and Drink a cup of Tea</p>
+                    </li>
+                    <li class="ellipsis">
+                        <h4 class="dark">
+                        	<i class="fa fa-calendar-check-o "></i>
+							&nbsp;11.00am
+                        </h4>
+                        <p>Looking up, notice Iam late</p>
+                    </li>
+                    <li class="ellipsis">
+                        <h4 class="dark">
+                        	<i class="fa fa-calendar-check-o "></i>
+							&nbsp;12.00am
+                        </h4>
+                        <p>Find my Coat and grab my hat</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="weather color-3">
+            <ul>
+                <li>
+                    <ul>
+                        <li>
+                            <h2>
+                            	<i class="fa fa-cloud fa-3x"></i>
+                            </h2>
+                        </li>
+                        <li>
+                            <ul>
+                                <li class="left">
+                                    <span>105</span>
+                                    <br>
+                                    <span>High</span>
+                                </li>
+                                <li class="right">
+                                    <span>94</span>
+                                    <br>
+                                    <span>Low</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <span class="dark">Pollen</span>
+                                <span>3.5</span>
+                            </li>
+                            <li>
+                                <span class="dark">Humidity</span>
+                                <span>90%</span>
+                            </li>
+                            <li>
+                                <span class="dark">Precip</span>
+                                <span>90%</span>
+                            </li>
+                            <li>
+                                <span class="dark">Wind</span>
+                                <span>0</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <span>9</span> 
+                                <i class="fa fa-sun-o"></i>
+								<span>95</span>
+                            </li>
+                            <li>
+                                <span>12</span>
+                                <i class="fa fa-sun-o"></i>
+                                <span>105</span>
+                            </li>
+                            <li>
+							<span>3</span>
+							<i class="fa fa-cloud"></i>
+							<span>105</span>
+							</li>
+                            <li>
+                                <span>6</span>
+                                <i class="fa fa-cloud"></i>
+                                <span>105</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <div class="travel color-1 center">
+                <h2>
+                	<i class="fa fa-bicycle fa-4x"></i>
+                </h2>
+                <h3>45</h3>
+                <h4 class="dark">Minutes to work</h4>
+            </div>
+            <div class="stock color-4 center">
+            	<button onclick="doSomething()" class="wetasphalt">
+				more</button>
+                <ul>
+                    <li>
+                        <h2>
+                        	<i class="fa fa-line-chart"></i>
+                        </h2>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="left">
+                                <span>104</span>
+                            </li>
+                            <li class="right">
+                                <span>+5.5</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>MORE</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="wet-asphalt">FOOTER</footer>
+</body>
+
+</html>
